@@ -1,0 +1,85 @@
+
+
+/* Selector de TIPO */
+/* <style>
+  h2{
+    color:rgb(71, 5, 100);
+  }
+  
+  h3{
+    font:bold;
+    color:rgb(120, 39, 145);
+  }
+
+  p{
+    color:rgb(23, 94, 6);
+  }
+</style> */
+
+/* Selector de CLASE  */
+/* .lista-color {
+  color:darkblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* Ejemplo de selector de TIPO */
+/* h3 {
+  font-size: x-large;
+}
+
+h1,
+h2,
+h3,
+label,
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+
+/* --- Aplicando Google Fonts --- */
+/* h2,
+h3,
+a,
+p,
+label,
+li {
+  font-family: 'Montserrat', sans-serif;
+} */
+
+/* Utilizando bordes en las imagenes */
+/* img {
+  width:300px;
+  border-width: 5px;
+  border-color: darkgrey;
+  border-style: solid;
+} */
+
+/* Utilizando bordes redondeados en las imagenes con clases */
+/* .borde-redondo {
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  border-color: bisque;
+  border-width: 10px;
+  border-style: solid;
+} */
+
+/* Utilizando ID */
+/* #gatos-aman {
+  color: blueviolet;
+}
+
+#gatos-odian {
+  color: fuchsia;
+} */
+
+/* Utilizando Selectores de Atributo */
+
+img[src *= "/images.unsplash.com/"] {
+  border-radius: 50px;
+  border-width: 5px;
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+}
+

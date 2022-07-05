@@ -5,12 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>freeCodeCamp Youtube Básico HTML-CSS-JS</title>
+  <!-- Estructura básica de CSS en el head usando <style> -->
+  <!-- <style>
+    h3{
+      font:bold;
+      color:rgb(120, 39, 145);
+    }
+  </style> -->
+  <!-- Usando Google-Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style_fcc.css">
 </head>
 <body>
-  <h2> App de gatos </h2>
+  <h2 > App de gatos </h2>
   <main>
     <h3>Imagenes de gatos</h3>
-    <!-- Coemntarios -->
+    <!-- link a una imagen de gatos en una nueva ventana -->
     <p>Imagenes de <a href="https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&q=80" target="_blank" rel="noopener noreferrer">gatos</a></p>
 
     <!-- <img src="img/Purple Zone v01.png" alt="jus a kid"> -->
@@ -23,7 +36,7 @@
     <a href="#p4">Parrafo CUATRO</a>
     <br>
     <!-- Haciendo un enlace de la imagen del gatito colocandola entre <a> </a> -->
-    <a href="https://images.unsplash.com/photo-1618641662184-bafefb91a542?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gato" width="200" height="200"> </a>
+    <a href="https://images.unsplash.com/photo-1618641662184-bafefb91a542?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80" target="_blank" rel="noopener noreferrer"><img class="borde-redondo" src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gato" > </a>
 
 
     <h3 id="p1">Parrafo UNO</h3>
@@ -43,19 +56,19 @@
     <h3>Lista de gatos</h3>
     <div>
       <p>Cosas que los gatos <em>aman</em>  </p>
-      <ul>
+      <ul id="gatos-aman">
         <li>Menta gatuna</li>
         <li>Apuntadores laser</li>
-        <li>Lasaña</li>
+        <li>Lasaña</li>   
       </ul>
-      <img src="https://images.unsplash.com/photo-1629115916087-7e8c114a24ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt="lasagna" width="200" height="200">
+      <img class="borde-redondo" src="https://images.unsplash.com/photo-1629115916087-7e8c114a24ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" alt="lasagna" >
       <p>Cosas que los gatos <s><strong>odian</strong></s>  </p>
-      <ol>
+      <ol id="gatos-odian">
         <li>Tratamiento antipulgas</li>
         <li>Truenos</li>
         <li>Otros gatos</li>
       </ol>
-      <img src="https://images.unsplash.com/photo-1570824104629-1817c91f7d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1223&q=80" alt="Varios gatos" width="200" height="200">
+      <img class="borde-redondo" src="https://images.unsplash.com/photo-1570824104629-1817c91f7d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1223&q=80" alt="Varios gatos" >
     </div>
 
     <form action="/enviarRespuesta">

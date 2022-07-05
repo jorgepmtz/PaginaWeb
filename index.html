@@ -4,21 +4,114 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina Web</title>
+  <title>Curso Web Udemy</title>
   <!-- from BoxIcons.com/usage --> 
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-  <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem deleniti numquam debitis exercitationem ducimus eaque ab, quibusdam eius delectus enim, aut dolor consequatur dolore quia omnis nesciunt incidunt non.</P>
-  
-  <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem deleniti numquam debitis exercitationem ducimus eaque ab, quibusdam eius delectus enim, aut dolor consequatur dolore quia omnis nesciunt incidunt non.</P> 
-  
-  
-<!-- /* From BoxIcons.com */ --> 
-<i class='bx bxl-facebook' ></i>
-<i class='bx bxl-twitter' ></i>
-<i class='bx bxl-instagram' ></i>
 
+<header class="header" id="inicio">
+  <img src="/Imagenes/bxMenuLeft.svg" alt="" class="hamburguesa">
+  <nav class="menu-navegacion">
+    <a href="#inicio">inicio</a>
+    <a href="#servicio">servicio</a>
+    <a href="#portafolio">portafolio</a>
+    <a href="#expertos">Expertos</a>
+    <a href="#contacto">Contacto</a>    
+  </nav>
+  <div class="contenedor head">
+    <h1>convertimos tus sueños en realidad</h1>
+    <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  </div>
+</header>
+<main>
+  <section class="services contenedor" id="servicio">
+    <h2 class="subtitulo">Nuestro Servicio</h2>
+    <div class="contenedor-servicio">
+      <img src="/Imagenes/imgChecklist.svg" alt="" width="500px">
+      <div class="checklist-servicio">
+        <div class="service">
+          <h3 class="n-service"><span class="number" >1</span>Diseño Web</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti totam sed reprehenderit sunt voluptatem nisi corrupti nihil incidunt molestiae.</p>
+        </div>
+        <div class="service">
+          <h3 class="n-service"><span class="number" >2</span>Diseño Web</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti totam sed reprehenderit sunt voluptatem nisi corrupti nihil incidunt molestiae.</p>
+        </div>
+        <div class="service">
+          <h3 class="n-service"><span class="number" >3</span>Diseño Web</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum deleniti totam sed reprehenderit sunt voluptatem nisi corrupti nihil incidunt molestiae.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="galeria" id="portafolio">
+    <div class="contenedor">
+      <h2 class="subtitulo">Galería</h2>
+        <div class="contenedor-galeria">
+          <img src="imagenes/img01.jpeg" alt="" class="img-galeria">
+          <img src="imagenes/img02.jpeg" alt="" class="img-galeria">
+          <img src="imagenes/img03.jpeg" alt="" class="img-galeria">
+          <img src="imagenes/img04.jpeg" alt="" class="img-galeria">
+          <img src="imagenes/img05.jpeg" alt="" class="img-galeria">
+          <img src="imagenes/img06.jpeg" alt="" class="img-galeria">
+        </div>
+    </div>
+  </section>
+  <!-- <section class="imagen-light">
+    <img src="imagenes/bxWindowClose.svg" alt="" class="close">
+    <img src="" alt="" class="agregar-imagen">
+  </section> -->
+  <section class="contenedor" id="experto">
+    <h2 class="subtitulo">expertos en:</h2>
+    <section class="experts">
+      <div class="cont-expert"> 
+        <img src="imagenes/imgAnalytics.svg" alt="">
+        <h3 class="n-expert">analitics</h3>
+      </div>
+      <div class="cont-expert"> 
+        <img src="imagenes/imgSEO.svg" alt="">
+        <h3 class="n-expert">SEO</h3>
+      </div>
+      <div class="cont-expert"> 
+        <img src="imagenes/imgSecurity.svg" alt="">
+        <h3 class="n-expert">Security</h3>
+      </div>
+    </section>
+
+  </section>
+</main>
+
+<footer id="contacto">
+  <div class="contenedor footer-content">
+    <div class="contact-us">
+      <h2 class="brand">l2bc.mx</h2>
+      <p>Link to Business Consulting</p>
+    </div>
+    <div class="social-media">
+      <!-- /* From BoxIcons.com */ --> 
+      <a href="/" class="social-media-icon" >
+        <i class='bx bxl-facebook' ></i>
+      </a>
+      <a href="/" class="social-media-icon" >
+        <i class='bx bxl-twitter' ></i>
+      </a>
+      <a href="/" class="social-media-icon" >
+        <i class='bx bxl-instagram' ></i>        
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ---- Archivos JavaScript ---- -->
+<script src="js/menu.js" ></script>
+<script src="js/lightbox.js" ></script>
+ 
 </body>
 </html>
+
