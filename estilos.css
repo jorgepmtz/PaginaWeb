@@ -51,6 +51,8 @@ header {
 
 .hamburguesa {
   position: fixed;
+  /* z-index: 10;   solo era para mostrar el ícono de hamburguesa del menú */
+  /* z-index: 10;     */
   top: 30px;
   right: 30px;
   background: #fff;
